@@ -57,8 +57,8 @@
 
 
 
-  /*  * *Aqui he aplicado un media querie de 480px de mobile para la animación */
-  @media(max-width:480px){
+  /** Media querie para la animación del index en la sección de "Quienes Somos"*/
+  @media(max-width:480px){   
 
     .compu-animation:hover{
 
