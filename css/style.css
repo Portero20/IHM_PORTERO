@@ -62,6 +62,13 @@
 
   }
 
+  .inicio{
+
+    height: 30px;
+    margin-bottom: -12px;
+
+  }
+
 
 
   /** Media querie para la animación del index en la sección de "Quienes Somos"*/
