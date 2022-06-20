@@ -31,9 +31,42 @@
 
   }
 
+  .logotipo:hover{
 
+    transform: scale(1.1);
+    transition-property: all;
+    transition-duration: 2s;
+
+  }
+
+  .compu-animation:hover{
+
+    transform: rotate(1turn);
+    transition: 1s;
+
+  }
+
+  .empleados{
+
+    height: 80px;
+    padding: 10px;
+    margin-left: 0px;
+    margin-bottom: 20px;
+
+  }
+
+
+  @media(max-width:480px){
+
+    .compu-animation:hover{
+
+      transform: rotate(1turn);
+      transition: 1s;
   
+    }
 
+
+  }
 
   
 
