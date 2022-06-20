@@ -56,6 +56,8 @@
   }
 
 
+
+  /*  * *Aqui he aplicado un media querie de 480px de mobile para la animación */
   @media(max-width:480px){
 
     .compu-animation:hover{
@@ -67,6 +69,10 @@
 
 
   }
+
+   
+
+  
 
   
 
