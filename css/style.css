@@ -55,6 +55,13 @@
 
   }
 
+  .logo-footer{
+
+    height: 30px;
+    margin-left: -110px;
+
+  }
+
 
 
   /** Media querie para la animación del index en la sección de "Quienes Somos"*/
