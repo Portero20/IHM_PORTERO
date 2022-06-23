@@ -84,6 +84,16 @@
 
   }
 
+  @media(max-width:280px){
+
+    .media-emp{
+
+      margin-left: 50px;
+      
+    }
+
+  }
+
    
 
   
