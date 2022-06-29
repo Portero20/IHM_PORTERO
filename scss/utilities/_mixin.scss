@@ -1,0 +1,15 @@
+@mixin tmñ ($tama){
+
+    font-size: $tama;
+
+
+}
+
+
+.alto1, .alto2, .alto3{
+
+    @include tmñ(20px);
+    margin-left: 40px;
+    margin-top: 10px;
+
+}

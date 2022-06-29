@@ -1,0 +1,24 @@
+//Declaramos el mapa
+
+$redes-clor:(
+
+    tmñ1: black,
+    tmñ2: black,
+    tmñ3: black,
+
+);
+
+
+@each $variable,$color in $redes-clor{
+
+   .redes--#{$variable}{
+
+        color: $color;
+
+   }
+
+}
+
+    
+
+

@@ -1,0 +1,33 @@
+.title-team{
+
+    position: absolute;
+    left: 40%;
+    bottom: 75%;
+    
+
+}
+
+
+.grilla{
+
+    display: grid;
+    margin-left: 100px;
+    margin-top: 200px;
+    gap: 30px;
+    grid-template-columns: 2fr 2fr 2fr;
+    grid-template-rows: 2fr 2fr 2fr;
+
+
+    .tarjeta1{
+
+        
+
+        .imagen-exe{
+    
+            height: 190px;
+    
+        }
+    
+    }
+
+}

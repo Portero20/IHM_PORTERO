@@ -1,0 +1,26 @@
+/** Media querie para la animación del index en la sección de "Quienes Somos"*/
+@media(max-width:480px){   
+
+    .compu-animation{
+
+      &:hover{
+
+        transform: rotate(1turn);
+        transition: 1s;
+
+      }
+  
+    }
+
+
+  }
+
+  @media(max-width:280px){
+
+    .media-emp{
+
+      margin-left: 50px;
+      
+    }
+
+  }
