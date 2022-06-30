@@ -66,6 +66,24 @@
   margin-bottom: -12px;
 }
 
+.somos .txt-somos {
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 50px;
+}
+.somos .parrafo1 {
+  text-align: center;
+}
+.somos .parrafo2 {
+  text-align: center;
+}
+.somos .parrafo3 {
+  text-align: center;
+}
+.somos .parrafo4 {
+  text-align: center;
+}
+
 .title-team {
   position: absolute;
   left: 40%;
