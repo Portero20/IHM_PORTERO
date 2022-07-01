@@ -1,0 +1,17 @@
+.titulo-servicios{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 60px;
+    
+}
+
+.grilla2{
+
+    display: grid;
+    place-items: center;
+    margin-top: 100px;
+    grid-template-columns: 2fr 2fr 2fr;
+    margin-bottom: 100px;
+    
+}

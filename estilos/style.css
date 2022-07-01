@@ -89,6 +89,21 @@
   height: 190px;
 }
 
+.titulo-servicios {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 60px;
+}
+
+.grilla2 {
+  display: grid;
+  place-items: center;
+  margin-top: 100px;
+  grid-template-columns: 2fr 2fr 2fr;
+  margin-bottom: 100px;
+}
+
 .redes--tmñ1 {
   color: black;
 }
@@ -274,5 +289,83 @@
     gap: 30px;
     grid-template-columns: 2fr 2fr;
     grid-template-rows: 2fr 2fr;
+  }
+}
+@media (min-width: 375px) and (max-width: 414px) {
+  .titulo-servicios {
+    margin-left: 100px;
+  }
+
+  .grilla2 {
+    display: grid;
+    place-items: center;
+    margin-top: 100px;
+    grid-template-columns: 2fr;
+    margin-bottom: 100px;
+    gap: 60px;
+  }
+}
+@media (min-width: 414px) and (max-width: 470px) {
+  .titulo-servicios {
+    margin-left: 120px;
+  }
+
+  .grilla2 {
+    display: grid;
+    place-items: center;
+    margin-top: 100px;
+    grid-template-columns: 2fr;
+    margin-bottom: 100px;
+    gap: 60px;
+  }
+}
+@media (min-width: 480px) and (max-width: 560px) {
+  .grilla2 {
+    display: grid;
+    place-items: center;
+    margin-top: 100px;
+    grid-template-columns: 2fr;
+    margin-bottom: 100px;
+    gap: 60px;
+  }
+}
+@media (min-width: 560px) and (max-width: 850px) {
+  .grilla2 {
+    display: grid;
+    place-items: center;
+    margin-top: 100px;
+    grid-template-columns: 2fr;
+    margin-bottom: 100px;
+    gap: 60px;
+  }
+}
+@media (min-width: 560px) and (max-width: 900px) {
+  .grilla2 {
+    display: grid;
+    place-items: center;
+    margin-top: 100px;
+    grid-template-columns: 2fr;
+    margin-bottom: 100px;
+    gap: 60px;
+  }
+}
+@media (min-width: 560px) and (max-width: 1000px) {
+  .grilla2 {
+    display: grid;
+    place-items: center;
+    margin-top: 100px;
+    grid-template-columns: 2fr;
+    margin-bottom: 100px;
+    gap: 60px;
+  }
+}
+@media (min-width: 1000px) and (max-width: 1200px) {
+  .grilla2 {
+    display: grid;
+    place-items: center;
+    margin-top: 100px;
+    grid-template-columns: 2fr 2fr 2fr;
+    margin-bottom: 100px;
+    gap: 60px;
   }
 }/*# sourceMappingURL=style.css.map */
