@@ -19,6 +19,29 @@ $redes-clor:(
 
 }
 
+//Iconos portfolio
+
+$tecnologias:(
+
+    html: 25px,
+    css: 25px,
+    js: 25px,
+    sass: 25px,
+
+);
+
+
+@each $variableTec, $iconTm in $tecnologias{
+
+    .icono__#{$variableTec}{
+
+        font-size: $iconTm;
+        margin: 10px;
+        margin-left: 15px;
+
+    }
+
+}
     
 
 

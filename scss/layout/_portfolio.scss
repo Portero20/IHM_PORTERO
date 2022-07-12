@@ -1,0 +1,85 @@
+.wrapper{
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 20vh;
+    
+
+    .typing-demo{
+
+        
+        width: 14.5ch;
+        animation: typing 2s steps(22), blink .5s step-end infinite alternate;
+        white-space: nowrap;
+        overflow: hidden;
+        border-right: 3px solid;
+        font-size: 2em;
+
+    }
+
+}
+
+@keyframes typing{
+
+    from{
+
+        width: 0;
+
+    }
+
+}
+
+@keyframes blink{
+
+    50%{
+
+        border-color: transparent;
+
+    }
+
+}
+
+.grillaPort{
+
+    display: grid;
+    place-items: center;
+    gap: 20px;
+    grid-template-areas: 
+    "trabajo1 tarjetalarga"
+    "trabajo2 tarjetalarga2";
+
+    .trabajo1{
+
+        grid-area: trabajo1;
+        margin-left: 200px;
+        font-size: 40px;
+
+    }
+    .trabajo2{
+
+        grid-area: trabajo2;
+        margin-left: 200px;
+        font-size: 40px;
+
+    }
+
+    .tarjetaLarga{
+
+        margin: 50px;
+        width: 30%;
+        grid-area: tarjetalarga;
+    
+    }
+    .tarjetaLarga2{
+
+        margin: 50px;
+        width: 30%;
+        grid-area: tarjetalarga2;
+
+    }
+
+}
+
+
+

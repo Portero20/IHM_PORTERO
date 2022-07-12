@@ -104,6 +104,78 @@
   margin-bottom: 100px;
 }
 
+.card img {
+  border-bottom: 1px solid black;
+}
+.card .botones {
+  display: grid;
+  margin-top: 20px;
+}
+
+.wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 20vh;
+}
+.wrapper .typing-demo {
+  width: 14.5ch;
+  -webkit-animation: typing 2s steps(22), blink 0.5s step-end infinite alternate;
+          animation: typing 2s steps(22), blink 0.5s step-end infinite alternate;
+  white-space: nowrap;
+  overflow: hidden;
+  border-right: 3px solid;
+  font-size: 2em;
+}
+
+@-webkit-keyframes typing {
+  from {
+    width: 0;
+  }
+}
+
+@keyframes typing {
+  from {
+    width: 0;
+  }
+}
+@-webkit-keyframes blink {
+  50% {
+    border-color: transparent;
+  }
+}
+@keyframes blink {
+  50% {
+    border-color: transparent;
+  }
+}
+.grillaPort {
+  display: grid;
+  place-items: center;
+  gap: 20px;
+  grid-template-areas: "trabajo1 tarjetalarga" "trabajo2 tarjetalarga2";
+}
+.grillaPort .trabajo1 {
+  grid-area: trabajo1;
+  margin-left: 200px;
+  font-size: 40px;
+}
+.grillaPort .trabajo2 {
+  grid-area: trabajo2;
+  margin-left: 200px;
+  font-size: 40px;
+}
+.grillaPort .tarjetaLarga {
+  margin: 50px;
+  width: 30%;
+  grid-area: tarjetalarga;
+}
+.grillaPort .tarjetaLarga2 {
+  margin: 50px;
+  width: 30%;
+  grid-area: tarjetalarga2;
+}
+
 .redes--tmñ1 {
   color: black;
 }
@@ -116,10 +188,38 @@
   color: black;
 }
 
+.icono__html {
+  font-size: 25px;
+  margin: 10px;
+  margin-left: 15px;
+}
+
+.icono__css {
+  font-size: 25px;
+  margin: 10px;
+  margin-left: 15px;
+}
+
+.icono__js {
+  font-size: 25px;
+  margin: 10px;
+  margin-left: 15px;
+}
+
+.icono__sass {
+  font-size: 25px;
+  margin: 10px;
+  margin-left: 15px;
+}
+
 .alto1, .alto2, .alto3 {
   font-size: 20px;
   margin-left: 40px;
   margin-top: 10px;
+}
+
+.Porta1, .Porta2, .iconos, .textoComida1, .textoComida2 {
+  text-align: center;
 }
 
 /** Media querie para la animación del index en la sección de "Quienes Somos"*/
@@ -139,7 +239,6 @@
     text-align: center;
     margin-top: 100px;
   }
-
   .grilla {
     display: grid;
     margin-left: 50px;
@@ -155,7 +254,6 @@
     margin-top: 100px;
     margin-left: -20px;
   }
-
   .grilla {
     display: grid;
     margin-left: 60px;
@@ -171,7 +269,6 @@
     margin-top: 100px;
     margin-left: -20px;
   }
-
   .grilla {
     display: grid;
     margin-left: 70px;
@@ -187,7 +284,6 @@
     margin-top: 100px;
     margin-left: -10px;
   }
-
   .grilla {
     display: grid;
     margin-left: 100px;
@@ -203,7 +299,6 @@
     margin-top: 100px;
     margin-left: -10px;
   }
-
   .grilla {
     display: grid;
     margin-left: 120px;
@@ -219,7 +314,6 @@
     margin-top: 100px;
     margin-left: -30px;
   }
-
   .grilla {
     display: grid;
     margin-left: 140px;
@@ -235,7 +329,6 @@
     margin-top: 100px;
     margin-left: 10px;
   }
-
   .grilla {
     display: grid;
     margin-left: 190px;
@@ -251,7 +344,6 @@
     margin-top: 100px;
     margin-left: -20px;
   }
-
   .grilla {
     display: grid;
     margin-left: 200px;
@@ -295,7 +387,6 @@
   .titulo-servicios {
     margin-left: 100px;
   }
-
   .grilla2 {
     display: grid;
     place-items: center;
@@ -309,7 +400,6 @@
   .titulo-servicios {
     margin-left: 120px;
   }
-
   .grilla2 {
     display: grid;
     place-items: center;
@@ -367,5 +457,33 @@
     grid-template-columns: 2fr 2fr 2fr;
     margin-bottom: 100px;
     gap: 60px;
+  }
+}
+@media (min-width: 375px) and (max-width: 1000px) {
+  .grillaPort {
+    display: grid;
+    place-items: center;
+    gap: 20px;
+    grid-template-areas: "trabajo1" "tarjetalarga" "trabajo2" "tarjetalarga2";
+  }
+  .grillaPort .trabajo1 {
+    grid-area: trabajo1;
+    margin-left: 20px;
+    font-size: 40px;
+  }
+  .grillaPort .trabajo2 {
+    grid-area: trabajo2;
+    margin-left: 20px;
+    font-size: 40px;
+  }
+  .grillaPort .tarjetaLarga {
+    margin: 50px;
+    width: 30%;
+    grid-area: tarjetalarga;
+  }
+  .grillaPort .tarjetaLarga2 {
+    margin: 50px;
+    width: 30%;
+    grid-area: tarjetalarga2;
   }
 }/*# sourceMappingURL=style.css.map */

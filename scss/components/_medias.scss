@@ -429,3 +429,56 @@
 
 
 }
+
+
+//Medias queries portfolio
+
+@media(min-width:375px)and(max-width:1000px){
+
+  
+  .grillaPort{
+
+    display: grid;
+    place-items: center;
+    gap: 20px;
+    
+    grid-template-areas: 
+    "trabajo1"
+    "tarjetalarga"
+    "trabajo2"
+    "tarjetalarga2";
+
+    .trabajo1{
+
+        grid-area: trabajo1;
+        margin-left: 20px;
+        font-size: 40px;
+
+    }
+    .trabajo2{
+
+        grid-area: trabajo2;
+        margin-left: 20px;
+        font-size: 40px;
+
+    }
+
+    .tarjetaLarga{
+
+        margin: 50px;
+        width: 30%;
+        grid-area: tarjetalarga;
+    
+    }
+    .tarjetaLarga2{
+
+        margin: 50px;
+        width: 30%;
+        grid-area: tarjetalarga2;
+
+    }
+    
+
+}
+
+}

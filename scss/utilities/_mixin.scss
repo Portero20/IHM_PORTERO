@@ -13,3 +13,18 @@
     margin-top: 10px;
 
 }
+
+
+//Mixin Portfolio
+
+@mixin center ($centro){
+
+    text-align: $centro;
+
+}
+
+.Porta1, .Porta2, .iconos, .textoComida1, .textoComida2{
+
+    @include center(center);
+
+}
