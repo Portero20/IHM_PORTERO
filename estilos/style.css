@@ -171,6 +171,13 @@ footer p {
   font-weight: bolder;
 }
 
+.toast .icono-Toast {
+  height: 30px;
+}
+.toast .toast-body {
+  font-weight: bolder;
+}
+
 .wrapper {
   display: flex;
   align-items: center;

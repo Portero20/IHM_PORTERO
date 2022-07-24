@@ -200,7 +200,7 @@
               <li class="list-group-item">Diseño Responsivo</li>
             </ul>
             <div class="card-body botones">
-              <button type="button" class="btn btn-dark">Adquirir</button>
+              <button type="button" class="btn btn-dark" id="liveToastBtn">Adquirir</button>
             </div>
           </div>
           <div class="card" style="width: 18rem;" data-aos="flip-up" data-aos-duration="1500"> 
@@ -216,7 +216,7 @@
               <li class="list-group-item">Diseño Responsivo</li>
             </ul>
             <div class="card-body botones">
-              <button type="button" class="btn btn-dark">Adquirir</button>
+              <button type="button" class="btn btn-dark" id="liveToastBtn">Adquirir</button>
             </div>
           </div>
           <div class="card" style="width: 18rem;" data-aos="flip-up" data-aos-duration="1500">
@@ -232,11 +232,25 @@
               <li class="list-group-item">Diseño Responsivo</li>
             </ul>
             <div class="card-body botones">
-              <button type="button" class="btn btn-dark">Adquirir</button>
+              <button type="button" class="btn btn-dark" id="liveToastBtn">Adquirir</button>
             </div>
           </div>
 
      </section>
+
+     <div class="toast-container position-fixed bottom-0 end-0 p-3">
+      <div id="liveToast" class="toast" role="alert" aria-live="assertive" aria-atomic="true">
+        <div class="toast-header">
+          <img src="../img/calidad-premium.png" class="rounded me-2 icono-Toast" alt="...">
+          <strong class="me-auto">Servicio</strong>
+          <small>Hace 10 minutos.</small>
+          <button type="button" class="btn-close" data-bs-dismiss="toast" aria-label="Close"></button>
+        </div>
+        <div class="toast-body">
+          Usted ha adquirido el servicio correctamente!.
+        </div>
+      </div>
+    </div>
       
 
 
@@ -263,6 +277,7 @@
 
 </main>
 
+<script src="../js/boton.js"></script>
 
 <script src="/docs/5.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
 
@@ -282,6 +297,8 @@
     <script>
       AOS.init();
     </script>
+
+    
 
   </body>
 </html>
