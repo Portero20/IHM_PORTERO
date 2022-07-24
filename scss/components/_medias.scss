@@ -28,7 +28,7 @@
 
 //Medias sección empleados
 
-@media(min-width:375px)and(max-width:420px) {
+@media(min-width:375px)and(max-width:420px){
 
   .title-team {
 
@@ -480,5 +480,16 @@
     
 
 }
+
+}
+
+
+@media (max-width:480px){
+
+  form{
+
+    width: 100%;
+
+  }
 
 }

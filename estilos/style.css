@@ -176,6 +176,57 @@
   grid-area: tarjetalarga2;
 }
 
+.textos h2 {
+  margin-top: 20px;
+  text-align: center;
+}
+
+form {
+  width: 450px;
+  margin: auto;
+  background: rgba(0, 0, 0, 0.3);
+  padding: 10px 20px;
+  box-sizing: border-box;
+  margin-top: 50px;
+  border-radius: 10px;
+  margin-bottom: 50px;
+}
+form h2 {
+  font-family: "Poppins", sans-serif;
+  text-align: center;
+  color: white;
+  margin: 0;
+  font-size: 30px;
+  margin-bottom: 20px;
+}
+form input {
+  font-family: "Poppins", sans-serif;
+  font-weight: bolder;
+}
+form input, form textarea {
+  width: 100%;
+  margin-bottom: 20px;
+  padding: 7px;
+  box-sizing: border-box;
+  font-size: 17px;
+  border: none;
+}
+form textarea {
+  min-height: 100px;
+  max-height: 0px;
+  max-width: 500px;
+  font-family: "Poppins", sans-serif;
+  font-weight: bolder;
+}
+form #boton {
+  background-color: #1E1E24;
+  color: white;
+  padding: 20px;
+}
+form #boton:hover {
+  cursor: pointer;
+}
+
 .redes--tmñ1 {
   color: black;
 }
@@ -485,5 +536,10 @@
     margin: 50px;
     width: 30%;
     grid-area: tarjetalarga2;
+  }
+}
+@media (max-width: 480px) {
+  form {
+    width: 100%;
   }
 }/*# sourceMappingURL=style.css.map */
