@@ -3,7 +3,12 @@
     justify-content: center;
     align-items: center;
     margin: 60px;
-    font-weight: bolder;
+
+    h1{
+
+        font-weight: bolder;
+
+    }
     
 }
 
@@ -86,6 +91,16 @@
     }
 
     .toast-body{
+
+        font-weight: bolder;
+
+    }
+
+}
+
+.toast-header{
+
+    small{
 
         font-weight: bolder;
 

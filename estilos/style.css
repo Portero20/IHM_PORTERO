@@ -133,6 +133,8 @@ footer p {
   justify-content: center;
   align-items: center;
   margin: 60px;
+}
+.titulo-servicios h1 {
   font-weight: bolder;
 }
 
@@ -175,6 +177,10 @@ footer p {
   height: 30px;
 }
 .toast .toast-body {
+  font-weight: bolder;
+}
+
+.toast-header small {
   font-weight: bolder;
 }
 
