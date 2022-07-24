@@ -22,7 +22,7 @@ const toastTriggerrr = document.getElementById('liveToastBtn3')
 const toastLiveExampleee = document.getElementById('liveToast3')
 if (toastTriggerrr) {
   toastTriggerrr.addEventListener('click', () => {
-    const toast = new bootstrap.Toast(toastLiveExamplee)
+    const toast = new bootstrap.Toast(toastLiveExampleee)
 
     toast.show()
   })
