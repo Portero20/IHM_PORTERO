@@ -3,7 +3,14 @@
     justify-content: center;
     align-items: center;
     margin: 60px;
+    font-weight: bolder;
     
+}
+
+.parrafo-Servicios{
+
+    font-weight: bolder;
+
 }
 
 .grilla2{
@@ -19,6 +26,36 @@
 
 .card{
 
+    .card-body{
+
+        .card-title{
+
+            font-weight: bolder;
+
+        }
+        .card-text{
+
+            font-weight: bolder;
+
+        }
+        p{
+
+            font-weight: bolder;
+
+        }
+
+    }
+
+    .list-group{
+
+        li{
+
+            font-weight: bolder;
+
+        }
+
+    }
+
     img{
 
         border-bottom: 1px solid black;
@@ -29,6 +66,12 @@
 
         display: grid;
         margin-top: 20px;
+        
+        .btn{
+
+            font-weight: bolder;
+
+        }
 
     }
 

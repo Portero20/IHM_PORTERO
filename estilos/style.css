@@ -3,6 +3,7 @@
 * {
   margin: 0;
   padding: 0;
+  font-family: "Poppins", sans-serif;
 }
 
 .nav-link {
@@ -42,6 +43,26 @@
   transition: 1s;
 }
 
+.parrafo-Somos {
+  font-weight: bolder;
+}
+
+.parrafo-Portfolio {
+  font-weight: bolder;
+}
+
+.parrafo-Contact {
+  font-weight: bolder;
+}
+
+.parrafo-Empleados {
+  font-weight: bolder;
+}
+
+footer p {
+  font-weight: bolder;
+}
+
 .empleados {
   height: 80px;
   padding: 10px;
@@ -58,23 +79,41 @@
   text-align: center;
   margin-top: 20px;
   margin-bottom: 50px;
+  font-weight: bolder;
 }
 .somos .parrafo1 {
   text-align: center;
+  font-weight: bolder;
 }
 .somos .parrafo2 {
   text-align: center;
+  font-weight: bolder;
 }
 .somos .parrafo3 {
   text-align: center;
+  font-weight: bolder;
 }
 .somos .parrafo4 {
   text-align: center;
+  font-weight: bolder;
+}
+
+.texto-Carrousel {
+  font-weight: bolder;
+}
+
+.parrafo-Carrousel {
+  font-weight: bolder;
 }
 
 .title-team {
   text-align: center;
   margin-top: 50px;
+  font-weight: bolder;
+}
+
+.card-body .card-title {
+  font-weight: bolder;
 }
 
 .grilla {
@@ -94,6 +133,11 @@
   justify-content: center;
   align-items: center;
   margin: 60px;
+  font-weight: bolder;
+}
+
+.parrafo-Servicios {
+  font-weight: bolder;
 }
 
 .grilla2 {
@@ -104,12 +148,27 @@
   margin-bottom: 100px;
 }
 
+.card .card-body .card-title {
+  font-weight: bolder;
+}
+.card .card-body .card-text {
+  font-weight: bolder;
+}
+.card .card-body p {
+  font-weight: bolder;
+}
+.card .list-group li {
+  font-weight: bolder;
+}
 .card img {
   border-bottom: 1px solid black;
 }
 .card .botones {
   display: grid;
   margin-top: 20px;
+}
+.card .botones .btn {
+  font-weight: bolder;
 }
 
 .wrapper {
@@ -125,6 +184,7 @@
   white-space: nowrap;
   overflow: hidden;
   border-right: 3px solid;
+  font-weight: bolder;
   font-size: 2em;
 }
 
@@ -159,11 +219,13 @@
   grid-area: trabajo1;
   margin-left: 200px;
   font-size: 40px;
+  font-weight: bolder;
 }
 .grillaPort .trabajo2 {
   grid-area: trabajo2;
   margin-left: 200px;
   font-size: 40px;
+  font-weight: bolder;
 }
 .grillaPort .tarjetaLarga {
   margin: 50px;
@@ -180,6 +242,7 @@
   margin-top: 20px;
   text-align: center;
   font-size: 35px;
+  font-weight: bolder;
 }
 
 form {
@@ -242,25 +305,25 @@ form #boton:hover {
 }
 
 .icono__html {
-  font-size: 25px;
+  font-size: 23px;
   margin: 10px;
   margin-left: 15px;
 }
 
 .icono__css {
-  font-size: 25px;
+  font-size: 23px;
   margin: 10px;
   margin-left: 15px;
 }
 
 .icono__js {
-  font-size: 25px;
+  font-size: 23px;
   margin: 10px;
   margin-left: 15px;
 }
 
 .icono__sass {
-  font-size: 25px;
+  font-size: 23px;
   margin: 10px;
   margin-left: 15px;
 }
