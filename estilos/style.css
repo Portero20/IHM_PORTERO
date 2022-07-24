@@ -363,7 +363,7 @@ form #boton:hover {
     margin-left: 50px;
   }
 }
-@media (min-width: 375px) and (max-width: 420px) {
+@media (min-width: 375px) and (max-width: 412px) {
   .title-team {
     text-align: center;
     margin-top: 100px;
@@ -371,6 +371,20 @@ form #boton:hover {
   .grilla {
     display: grid;
     margin-left: 50px;
+    margin-top: 100px;
+    gap: 30px;
+    grid-template-columns: 2fr;
+    grid-template-rows: 2fr;
+  }
+}
+@media (min-width: 412px) and (max-width: 420px) {
+  .title-team {
+    text-align: center;
+    margin-top: 100px;
+  }
+  .grilla {
+    display: grid;
+    margin-left: 62px;
     margin-top: 100px;
     gap: 30px;
     grid-template-columns: 2fr;
