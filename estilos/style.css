@@ -351,6 +351,12 @@ form #boton:hover {
   text-align: center;
 }
 
+.redes {
+  font-size: 20px;
+  padding: 10px;
+  color: black;
+}
+
 /** Media querie para la animación del index en la sección de "Quienes Somos"*/
 @media (max-width: 480px) {
   .compu-animation:hover {

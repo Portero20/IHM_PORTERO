@@ -28,3 +28,20 @@
     @include center(center);
 
 }
+
+
+//Mixin redes sociales index
+
+@mixin redesSociales{
+
+    font-size: 20px;
+    padding: 10px;
+    color: black
+
+}
+
+.redes{
+
+    @include redesSociales;
+
+}
