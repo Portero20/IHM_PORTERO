@@ -175,6 +175,7 @@ footer p {
 }
 .card .botones .btn {
   font-weight: bolder;
+  width: 240px;
 }
 
 .titulo-Basico {
