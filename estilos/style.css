@@ -75,6 +75,10 @@ footer p {
   margin-bottom: -12px;
 }
 
+.somos {
+  font-size: 65px;
+}
+
 .somos .txt-somos {
   text-align: center;
   margin-top: 20px;
@@ -118,7 +122,7 @@ footer p {
 
 .grilla {
   display: grid;
-  margin-left: 100px;
+  margin-left: 130px;
   margin-top: 100px;
   gap: 30px;
   grid-template-columns: 2fr 2fr 2fr;
@@ -173,14 +177,50 @@ footer p {
   font-weight: bolder;
 }
 
-.toast .icono-Toast {
-  height: 30px;
-}
-.toast .toast-body {
-  font-weight: bolder;
+.titulo-Basico {
+  text-align: center;
+  margin-top: 50px;
 }
 
-.toast-header small {
+.grillaS {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  grid-template-rows: auto;
+  padding: 70px;
+  margin-left: 150px;
+  margin-top: 20px;
+}
+.grillaS .cardBasico {
+  width: 190px;
+  height: 288px;
+  padding: 2%;
+  background: rgb(255, 255, 255);
+  border-bottom: 2px solid black;
+  border-right: 2px solid black;
+  border-top: 2px solid white;
+  border-left: 2px solid white;
+  transition-duration: 1s;
+  transition-property: border-top, border-left, border-bottom, border-right, box-shadow;
+}
+.grillaS .cardBasico:hover {
+  border-top: 2px solid black;
+  border-left: 2px solid black;
+  border-bottom: 2px solid grey;
+  border-right: 2px solid grey;
+}
+.grillaS .cardBasico .card__content {
+  font-size: small;
+  text-align: center;
+}
+.grillaS .cardBasico .card__content-heading {
+  color: black;
+}
+.grillaS .cardBasico .card__content-heading h2 {
+  font-weight: bolder;
+}
+.grillaS .cardBasico .card__content-body p {
+  color: black;
+  padding-bottom: 1rem;
   font-weight: bolder;
 }
 
@@ -376,7 +416,7 @@ form #boton:hover {
   }
   .grilla {
     display: grid;
-    margin-left: 50px;
+    margin-left: -20px;
     margin-top: 100px;
     gap: 30px;
     grid-template-columns: 2fr;
@@ -390,7 +430,7 @@ form #boton:hover {
   }
   .grilla {
     display: grid;
-    margin-left: 67px;
+    margin-left: -10px;
     margin-top: 100px;
     gap: 30px;
     grid-template-columns: 2fr;
@@ -405,7 +445,7 @@ form #boton:hover {
   }
   .grilla {
     display: grid;
-    margin-left: 60px;
+    margin-left: -5px;
     margin-top: 100px;
     gap: 30px;
     grid-template-columns: 2fr;
@@ -420,7 +460,7 @@ form #boton:hover {
   }
   .grilla {
     display: grid;
-    margin-left: 70px;
+    margin-left: 5px;
     margin-top: 100px;
     gap: 30px;
     grid-template-columns: 2fr;
@@ -435,7 +475,7 @@ form #boton:hover {
   }
   .grilla {
     display: grid;
-    margin-left: 100px;
+    margin-left: 20px;
     margin-top: 100px;
     gap: 30px;
     grid-template-columns: 2fr;
@@ -450,7 +490,7 @@ form #boton:hover {
   }
   .grilla {
     display: grid;
-    margin-left: 120px;
+    margin-left: 50px;
     margin-top: 100px;
     gap: 30px;
     grid-template-columns: 2fr;
@@ -465,7 +505,7 @@ form #boton:hover {
   }
   .grilla {
     display: grid;
-    margin-left: 140px;
+    margin-left: 70px;
     margin-top: 100px;
     gap: 30px;
     grid-template-columns: 2fr;
@@ -480,7 +520,7 @@ form #boton:hover {
   }
   .grilla {
     display: grid;
-    margin-left: 190px;
+    margin-left: 105px;
     margin-top: 100px;
     gap: 30px;
     grid-template-columns: 2fr;
@@ -495,7 +535,7 @@ form #boton:hover {
   }
   .grilla {
     display: grid;
-    margin-left: 200px;
+    margin-left: 125px;
     margin-top: 100px;
     gap: 30px;
     grid-template-columns: 2fr;
